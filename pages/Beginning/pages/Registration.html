@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <div class="nottitle">
+        <div class="ttile2">
+    <a href="../index.html" class="title">На главную страницу</a></div>
+    </div>
+    <form action="" method="GET">
+        <p><label for="name">Введите имя:</label></p>
+            <input type="text" placeholder="Ваше имя" name="user-name" id="name">
+        <p><label for="surname">Введите фамилию:</label></p>
+            <input type="text" placeholder="Ваша фамилия" name="user-surname" id="surname">
+        <p><label for="patronymic">Введите отчество:</label></p>
+            <input type="text" placeholder="Ваше отчество" name="user-patronymic" id="patronymic">
+        <p><label for="date">Дата рождения:</label></p>
+            <input type="date" name="user-date" id="date">
+            <p>
+                Какие аниме предрочитаете:
+            </p>
+            <ul>
+                <li><label>Наруто<input type="checkbox" name="Naruto" class="checkbox" class="checkbox"></label></li>
+                <li><label>Мастера Меча Онлайн<input type="checkbox" name="Sword Art Online" class="checkbox"></label></li>
+                <li><label>Блич<input type="checkbox" name="Bleach" class="checkbox"></label></li>
+                <li><label>Виолетта Эвергарден<input type="checkbox" name="Violet Evergarden" class="checkbox"></label></li>
+                <li><label>Убийца демонов<input type="checkbox" name="Demon Slayer" class="checkbox"></label></li>
+                <li><label>Другое Аниме<input type="checkbox" name="Other Anime" class="checkbox"></label></li>
+            </ul>
+        <p><label for="password">Придумайте пароль:</label></p>
+            <input type="password" placeholder="Пароль" name="user-password" id="password">
+        <p><label for="password-re">Повторите пароль:</label></p>
+            <input type="password" placeholder="Пароль" name="user-password" id="password-re">
+            <p>
+                Укажите ваш пол:
+            </p>
+        <label >
+            Мужской
+            <input type="radio" name="sex" class="sex">
+        </label>
+        <label>
+            Женский
+            <input type="radio" name="sex" class="sex">
+        </label>
+        <p><label for="email">Укажите адрес электронной почты:</label></p>
+            <input type="email" placeholder="Почта" name="user-email" id="email">
+        <p><label for="telefon">Ваш номер телефона:</label></p>
+            <input type="tel" name="user-phonenumber" id="telefon">
+        <p><label for="photo">Загрузите ваше фото:</label></p>
+            <input type="file" name="user-photo" id="photo">
+         <p><label for="cause">Почему вы хотите зарегистрироваться на нашем портале?</label></p>
+        <textarea name="cause" id="cause" cols="60" rows="5"></textarea>
+           <p>
+               <label>
+            Я не робот
+            <input type="checkbox" name="user-not-a-robot" class="checkbox">
+        </label>
+           </p>
+           <button type="submit">Регистрация</button>
+           <button type="reset">Очистить всё</button>
+        
+    </form>
+</body>
+</html>

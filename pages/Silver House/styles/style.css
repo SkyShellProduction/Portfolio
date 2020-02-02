@@ -1,0 +1,228 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root{
+        --col-1:calc(100%/12);
+        --col-2:calc(100%/12*2);
+        --col-3:calc(100%/12*3);
+        --col-4:calc(100%/12*4);
+        --col-5:calc(100%/12*5);
+        --col-6:calc(100%/12*6);
+        --col-7:calc(100%/12*7);
+        --col-8:calc(100%/12*8);
+        --col-9:calc(100%/12*9);
+        --col-10:calc(100%/12*10);
+        --col-11:calc(100%/12*11);
+        --col-12:calc(100%/12*12);
+}
+header{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-photo{
+    margin: 51px auto 58px auto;
+}
+nav{
+    display: flex;
+    padding: 0 15px;
+    max-width: 1140px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0% auto 52px auto;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: auto 144px;
+    width: 1114px;
+}
+header nav ul li a{
+    margin: 0% 48px 16px 0;
+    padding-bottom: 16px;
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+    font-size: 18px;
+    color: #bab9b9;
+    list-style: none;
+    text-align: center;
+}
+header nav ul li a:hover{
+    color: #4581b7;
+    border-bottom: 1px solid #4581b7;
+}
+.image-main{
+    margin: 0 auto 30px auto;
+}
+.container{
+    margin: 0% auto;
+    padding: 0 15px;
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.item-left{
+    width: var(--col-8);
+    height: 500px;
+    background: #f0f0f0;
+    margin-right: 30px;
+}
+.container .item-left p{
+    margin: 0 98px 30px 40px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    color: #7f7f7f;
+}
+.container .item-right p{
+   font-family: Roboto;
+   font-weight: normal;
+   font-size: 16px;
+   color: #7f7f7f;
+   margin: 0px 54px 48px 40px;
+
+}
+.item-right{
+    width: var(--col-4);
+    height: 500px;
+    background: #f0f0f0;
+}
+.item-center{
+    margin: 30px auto 0 auto;
+    background: #f0f0f0;;
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.center{
+ margin: 16px 0 14px 41px;
+ width: var(--col-4);
+}
+.center1{
+margin: 39px 41px 68px 0;
+width: var(--col-4);
+}
+.item-center .center1 p{
+    font-family: Myriad Pro;
+    font-weight: normal;
+    font-size: 16px;
+    color: #808080;
+    text-align: end;
+}
+span{
+    font-family: Myriad Pro;
+    font-weight: normal;
+    font-size: 25px;
+    color: #808080;
+}
+
+h3{
+    margin: 52px 0 30px 40px;
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+    font-size: 20px;
+    color: #4581b7;
+}
+@media(max-width:560px){
+    .header-photo{
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        text-align: center;
+        max-width: 400px;
+    }
+    header nav ul li a:hover{
+        color: #4581b7;
+        border-bottom: none;
+    }
+    .image-main{
+        width: 100%;
+    }
+    .container{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .item-left{
+        width: 100%;
+        margin-right: 0
+    }
+    .item-right{
+        width: 100%;
+    }
+    .item-center{
+
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .center{
+        width: 100%;
+    }
+    .center1{
+        width: 100%;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    header nav ul li a:hover{
+        color: #4581b7;
+        border-bottom: none;
+    }
+    .item-left{
+        width: 100%;
+        margin-bottom: 30px;
+        height: 100%;
+    }
+    .item-right{
+        width: 100%;
+    }
+    .image-main{
+        width: 100%;
+    }
+    .header-photo{
+        width: 100%;
+    }
+    header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        text-align: left;
+        max-width: 568px;
+    }
+    .item-center{
+
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .center{
+        width: 100%;
+    }
+    .center1{
+        width: 100%;
+    }
+}
+@media(max-width: 1110px){
+    .header-photo{
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+}

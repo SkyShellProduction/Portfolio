@@ -1,0 +1,156 @@
+
+body{
+    background: url(../styles/abstract086_uhd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+form{
+    background: url(../styles/blacksharetemp.jpg);
+    border: crimson;
+    color: yellow;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    margin: 150px auto auto auto;
+    width: 500px;
+}
+input{
+    border: red;
+    width: 300px;
+    height: 30px;
+}
+button{
+    border: red;
+    width: 200px;
+    height: 50px;    
+}
+.checkbox{
+    text-align: center;
+    width: 15px;  
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color:violet;
+    font-size: 25px;
+    text-align: left;
+}
+li{
+    text-align: left;
+    list-style: none;
+}
+.sex{
+    width: 15px;
+    height: auto;
+    padding-top: 15px;
+}
+.anime{
+    color:white;
+    text-align: left;
+    font-size: 22px;
+
+}
+h1{
+color:red;
+text-align: center;
+}
+h2{
+color: green;
+}
+h3{
+color:yellow;
+}
+img{
+    margin: 15px 8px 15px 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.flex-container{
+    margin: 50px auto 50px auto;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-item1{
+width: 700px;
+height: 550px;
+align-self: flex-end;
+}
+.flex-item2{
+width: 500px;
+height: 550px;
+align-self: center;
+text-align: center;
+}
+.flex{
+    background: url(../lp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;  
+}
+p{
+    color: yellow;
+    text-align: center;
+    font-size: 22px;  
+}
+.flex-item3{
+    text-align: center;
+    background: chartreuse;
+    align-self: center;
+    width: 700px;
+    height: 35px;
+    font-size: 22px;
+    padding: 5px auto 5px auto;
+}
+.flex-item4{
+    text-align: center;
+    align-self: center;
+    width: 500px;
+    height: 35px;
+    font-size: 14px;
+    font: bold;
+}
+span{
+font-size: 22px;
+color: rgb(255, 0, 221);
+font: bold;
+}
+.title{
+    width: 100%;
+    height: 35px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: nowrap;
+    color: red;
+    text-align: left;
+}
+.title1{
+    width: 220px;
+    height: auto;
+    text-align: right;
+}
+.nottitle{
+    width: 100%;
+    height: 35px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.title2{
+    width: initial;
+    height: auto;
+    text-align: left;
+    padding: 0% 5px 0% 5px;
+}
+
+.other{
+    color: black;
+    text-align: center;
+    font-size: 22px;    
+}
